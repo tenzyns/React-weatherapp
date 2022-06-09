@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(143, 196, 218);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.app {
+  margin: auto;
+}
+/* weather background setting */
+
+.box {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.today {
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  height: 220px;
+  padding-top: 15px;
+}
+.clear {
+  background-image: url("https://i.makeagif.com/media/1-20-2017/Dcv7Ly.gif");
+}
+.part-cloud {
+  background-image: url("https://c.tenor.com/438H6u87JfsAAAAC/sky-clouds.gif");
+}
+.cloudy {
+  background-image: url("https://media.istockphoto.com/photos/storm-sky-rain-picture-id512218646?k=20&m=512218646&s=612x612&w=0&h=C-2Gn8nsMG-o7QNiXYPqu4FeJJFABhPpe4rTG0CIMWQ=");
+  
+}
+.foggy{
+  background-image: url("https://media0.giphy.com/media/gk3s6G7AdUNkey0YpE/giphy.gif?cid=ecf05e4744vuvaf3vua083p1au2xtdjh2fz506fqkmo25g5b&rid=giphy.gif&ct=g");
+  color: #FF4500;
+  
+}
+.rain {
+  background-image: url("https://www.icegif.com/wp-content/uploads/2021/10/icegif-460.gif");
+  color: #f7cdbd;
+}
+.snow {
+  background-image: url("https://icanwrite100words.files.wordpress.com/2016/04/winter-snow-nature-animated-gif-8.gif");
+}
+.thunder {
+  background-image: url("https://media0.giphy.com/media/13ZEwDgIZtK1y/giphy.webp?cid=ecf05e47vngdterrp7igan51se0d1iwecb41c6vhwhgcp26y&rid=giphy.webp&ct=g");
+}
+
+/* --------------------- */
+
+
+.search-div {
+  width: 70%;
+  margin: auto;
+ 
+}
+
+.search-bar {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.table-container {
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+table caption {
+  font-size: 1.8em;
+}
+table tbody {
+  background-color: rgb(235, 210, 178);
+}
+table thead {
+  background-color: rgb(163, 241, 169);
+}
+table th, td {
+  border: solid rgb(170, 162, 162) 1px;
+  font-size: 0.80em;
+  padding: 5px;
+}
+table td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table tr:nth-child(even) {
+  background-color: rgb(234, 247, 199);
+}
+
+/* -------media query for larger screen----- */
+
+@media screen and (min-width:650px) {
+  
+.search-div {
+  width: 50%;
+}
+table th, td {
+  font-size: 1.2em;
+}
+table caption {
+  font-size: 2.5em;
+}
+.app {
+  width: 600px;
+}
+.city {
+  font-size: 1.3em;
+}
+
+}
