@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(143, 196, 218);
+  background-color: rgb(109, 158, 179);
 }
 
 code {
@@ -54,9 +54,11 @@ code {
 }
 .snow {
   background-image: url("https://icanwrite100words.files.wordpress.com/2016/04/winter-snow-nature-animated-gif-8.gif");
+  color: #eff30b;
 }
 .thunder {
   background-image: url("https://media0.giphy.com/media/13ZEwDgIZtK1y/giphy.webp?cid=ecf05e47vngdterrp7igan51se0d1iwecb41c6vhwhgcp26y&rid=giphy.webp&ct=g");
+
 }
 
 /* --------------------- */
